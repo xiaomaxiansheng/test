@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Servers>
+  <Server Url="http://www.mm211.com">
+    <Expressions>
+      <Expression Folder="html">href="/html/([^"]*?).html"</Expression>
+    </Expressions>
+  </Server>
+  <Server Url="http://www.cnrenti.cn/">
+    <Expressions>
+      <Expression Folder="rentisheying">href="/rentisheying/([^"]*?).html"</Expression>
+      <Expression Folder="rentimote">href="/rentimote/([^"]*?).html"</Expression>
+      <Expression Folder="rentixiezhen">href="/rentixiezhen/([^"]*?).html"</Expression>
+      <Expression Folder="oumeirenti">href="/oumeirenti/([^"]*?).html"</Expression>
+    </Expressions>
+  </Server>
+  <Server Url="http://www.36renti.com/">
+    <Expressions>
+      <Expression Folder="10renti">href="/10renti/([^"]*?).html"</Expression>
+    </Expressions>
+  </Server>
+  <Server Url="http://www.43renti.com/yazhourentiyishu">
+    <Expressions>
+      <Expression Folder="yazhourentiyishu">href="/yazhourentiyishu/([^"]*?).shtml"</Expression>
+    </Expressions>
+  </Server>
+</Servers>

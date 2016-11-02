@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+  <appender name="FileLog" type="log4net.Appender.RollingFileAppender,log4net">
+    <file value="log\" />
+    <appendToFile value="true" />
+    <rollingStyle value="Date" />
+    <datePattern value="yyyyMMdd'.txt'" />
+    <staticLogFileName value="false" />
+    <maximumFileSize value="50MB" />
+    <!--日志最大个数,都是最新的-->
+    <maxSizeRollBackups value="50" />
+    <layout type="log4net.Layout.PatternLayout,log4net">
+      <conversionPattern value="====================================================%newline日期：%date 线程：[%thread] 日志类别：%-5level %newline[%property{NDC}] - %message%newline%newline" />
+    </layout>
+  </appender>
+  <root>
+    <level value="ALL" />
+    <appender-ref ref="FileLog" />
+  </root>
+</log4net>

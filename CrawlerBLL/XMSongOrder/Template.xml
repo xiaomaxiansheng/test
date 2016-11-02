@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<page>
+		<title_main>p_redirect_l</title_main>
+		<title_unit_list>&lt;div class="info\"&gt;(.+?)&lt;/div&gt;</title_unit_list>
+		<title_unit_title>&lt;p&gt;&lt;strong&gt;&lt;a href="/album/(\d+)"&gt;[^@]{1,100}&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</title_unit_title>
+		<albumId>/album/(\d+)</albumId>
+	</page>
+	
+</root>
